@@ -3,14 +3,14 @@ import './styles.css';
 
 function Pagination() {
     return (
-        <div className="dsmovie-pagination-container">
-            <div className="dsmovie-pagination-box">
-                <button className="dsmovie-pagination-button" disabled={true} >
+        <div className="grmovie-pagination-container">
+            <div className="grmovie-pagination-box">
+                <button className="grmovie-pagination-button" disabled={true} >
                     <Arrow />
                 </button>
                 <p>{`${1} de ${3}`}</p>
-                <button className="dsmovie-pagination-button" disabled={false} >
-                    <Arrow className="dsmovie-flip-horizontal" />
+                <button className="grmovie-pagination-button" disabled={false} >
+                    <Arrow className="grmovie-flip-horizontal" />
                 </button>
             </div>
         </div>
